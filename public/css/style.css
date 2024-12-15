@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body takes up the full height */
+}
+
+h2 {
+    margin-left: 20px; /* Adjust the value as needed */
+}
+
+
+canvas {
+    width: 100%;  /* Set the width to 100% of the viewport */
+    height: 100%; /* Set the height to 100% of the viewport */
+    display: block; /* Remove any extra space below the canvas */
+}
+
+.centered-header {
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin: 20px 0;
+}
+
+.platform {
+    position: absolute;
+    background-color: #8B4513;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#platform1 {
+    top: 300px;
+    left: 100px;
+}
+
+#platform2 {
+    top: 200px;
+    left: 400px;
+}
+
+#platform3 {
+    top: 100px;
+    left: 600px;
+}
